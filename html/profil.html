@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Website RevoU - dibuat oleh Rizal Maulana Hakimullah untuk tugas RevoU.">
+  <title>RevoU — Profil</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">RevoU</div>
+        <nav class="nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="profil.html" class="nav-link active">Our Profil</a>
+          <a href="portofolio.html" class="nav-link">Portfolio</a>
+          <a href="index.html#contact" class="nav-link">Message Us</a>
+        </nav>
+      </div>
+      <div class="profile-actions">
+        <button id="profileSaveBtn" class="btn small">Simpan Nama</button>
+        <a href="index.html" class="nav-link">Kembali</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Banner -->
+    <section class="banner fade-in">
+      <div id="particles-js"></div>
+      <div class="container banner-inner">
+        <div>
+          <h1 id="profileGreeting">Profil Perusahaan</h1>
+          <p class="muted" id="profileSub">Situs profil perusahaan contoh — dibuat untuk tugas.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about reveal">
+      <div class="container about-grid">
+        <div class="about-card">
+          <h2>Tentang Perusahaan</h2>
+          <p>RevoU (contoh) adalah perusahaan yang bergerak di bidang pelatihan dan solusi digital. Kami berfokus pada pemberdayaan talenta melalui pelatihan praktis dan proyek nyata.</p>
+          <p>Kami mengutamakan desain yang simpel, user-friendly, dan performa.</p>
+        </div>
+
+        <div class="profile-settings-card">
+          <h3>Pengaturan Nama Pengunjung</h3>
+          <p>Masukkan nama Anda — nama ini akan tampil di halaman utama.</p>
+          <div class="form-row">
+            <input id="profileNameInput" placeholder="Nama Anda" />
+            <button id="profileSaveBtn" class="btn">Simpan</button>
+          </div>
+          <small class="muted">Data disimpan secara lokal di browser (localStorage).</small>
+        </div>
+      </div>
+    </section>
+
+<!-- Vision & Mission -->
+<section class="vision-mission reveal">
+  <div class="container">
+    <h2 class="section-title">Vision & Mission</h2>
+    <div class="vm-grid">
+      <div class="vm-card">
+        <h3>Visi</h3>
+        <p id="visionText">
+          Menjadi pusat pengembangan <span class="highlight">talenta digital</span> yang <span class="highlight">inklusif</span> dan <span class="highlight">berdaya saing</span>.
+        </p>
+      </div>
+      <div class="vm-card">
+        <h3>Misi</h3>
+        <ol id="missionList">
+          <li>Menyediakan pengalaman belajar berbasis proyek nyata.</li>
+          <li>Menjalin kemitraan industri untuk penempatan kerja.</li>
+          <li>Membangun komunitas pembelajar yang suportif.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+          <!-- Page Transition Overlay -->
+    <div class="page-transition" id="pageTransition"></div>
+
+    <!-- Semua konten utama diberi class fade-in-content -->
+    <div class="fade-in-content">
+      <!-- Konten halaman di sini -->
+    </div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year2"></span> RevoU — Profil</div>
+      <div class="footer-right">Made for exercise</div>
+    </div>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>

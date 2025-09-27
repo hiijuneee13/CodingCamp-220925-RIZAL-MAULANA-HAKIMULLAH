@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Website RevoU - dibuat oleh Rizal Maulana Hakimullah untuk tugas RevoU.">
+  <title>RevoU — Portfolio</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/portofolio.css" />
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">RevoU</div>
+        <nav class="nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="profil.html" class="nav-link">Our Profil</a>
+          <a href="portofolio.html" class="nav-link active">Portfolio</a>
+          <a href="index.html#contact" class="nav-link">Message Us</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="banner fade-in">
+    <div id="particles-js"></div>
+    <div class="container banner-inner">
+      <div>
+        <h1 id="portfolioGreeting">Portofolio Kami</h1>
+        <p class="muted" id="portfolioSub">Kumpulan project dan karya yang telah kami buat.</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Filter Bar -->
+<section class="container">
+  <div class="filter-bar">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="mobile">Mobile</button>
+    <button class="filter-btn" data-filter="web">Web</button>
+    <button class="filter-btn" data-filter="dashboard">Dashboard</button>
+    <button class="filter-btn" data-filter="analysis">Analysis</button>
+    <button class="filter-btn" data-filter="ai">AI</button>
+    <button class="filter-btn" data-filter="design">Design</button>
+  </div>
+</section>
+
+<!-- Portfolio Grid -->
+<main class="container">
+  <div class="portfolio-grid">
+
+    <div class="card mobile">
+      <img src="https://via.placeholder.com/600x300/0ea5a4/ffffff?text=Mobile+App" alt="Mobile App">
+      <div class="card-overlay">
+        <h3>Aplikasi Mobile</h3>
+        <p>Membangun aplikasi Android sederhana dengan Java dan Firebase.</p>
+      </div>
+    </div>
+
+    <div class="card web">
+      <img src="https://via.placeholder.com/600x300/f59e0b/ffffff?text=Website" alt="Website">
+      <div class="card-overlay">
+        <h3>Website Company</h3>
+        <p>Landing page modern untuk perusahaan menggunakan HTML, CSS, JS.</p>
+      </div>
+    </div>
+
+    <div class="card dashboard">
+      <img src="https://via.placeholder.com/600x300/6366f1/ffffff?text=Dashboard" alt="Dashboard">
+      <div class="card-overlay">
+        <h3>Dashboard Data</h3>
+        <p>Dashboard interaktif dengan Chart.js untuk menampilkan data realtime.</p>
+      </div>
+    </div>
+
+    <div class="card analysis">
+      <img src="https://via.placeholder.com/600x300/ef4444/ffffff?text=Analysis" alt="Analysis">
+      <div class="card-overlay">
+        <h3>Analisis Data</h3>
+        <p>Menggunakan Python dan Pandas untuk analisis dataset besar.</p>
+      </div>
+    </div>
+
+    <div class="card ai">
+      <img src="https://via.placeholder.com/600x300/8b5cf6/ffffff?text=AI" alt="AI Project">
+      <div class="card-overlay">
+        <h3>AI Project</h3>
+        <p>Proyek machine learning menggunakan TensorFlow dan Scikit-learn.</p>
+      </div>
+    </div>
+
+    <div class="card design">
+      <img src="https://via.placeholder.com/600x300/f43f5e/ffffff?text=Design" alt="Design">
+      <div class="card-overlay">
+        <h3>Design UI</h3>
+        <p>Mendesain interface interaktif dengan Figma dan Adobe XD.</p>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>© <span id="year"></span> RevoU — Portfolio</div>
+    <div class="footer-right">Made for exercise</div>
+  </div>
+</footer>
+
+
+  </div>
+</main>
+
+  </div>
+</main>
+          <!-- Page Transition Overlay -->
+    <div class="page-transition" id="pageTransition"></div>
+
+    <!-- Semua konten utama diberi class fade-in-content -->
+    <div class="fade-in-content">
+      <!-- Konten halaman di sini -->
+    </div>
+    
+  <script src="../js/script.js"></script>
+  <script src="../js/portofolio.js"></script>
+</body>
+</html>
